@@ -11,7 +11,7 @@ abstract: |
     Some bugs are just that---a one off.  A wayward moth that just happens to be innocently fluttering through the wrong relay at the wrong time.  But some kinds of bugs aren't like that.  Instead, they have risen to superstar status, plaguing veterans and newcomers alike.  But what if these aren't bugs at all?  What if they are actual deficiencies in safety and robustness offered by the C programming language as a consequence of the degree to which guesswork is introduced.  Here we explore a more explicit approach to systems level programming supported by Rust, which we believe will better promote understanding of design intent, and eliminate some of the guesswork.  Guided by a set of classic, but still relevant, bugs identified almost 15 years ago by Engler, we consider this in the context of the new generation of students learning about systems in a typical OS course, where students often first encounter these deficiencies.   
 references:
   - id: rust
-    title: Rust
+    title: " Rust"
     type: webpage
     URL: http://rust-lang.org/
     accessed:
@@ -19,7 +19,7 @@ references:
       month: 06
       day: 30
   - id: rust-release
-    title: Announcing Rust 1.0
+    title: " Announcing Rust 1.0"
     type: webpage
     URL: http://blog.rust-lang.org/2015/05/15/Rust-1.0.html
     accessed:
@@ -28,14 +28,14 @@ references:
       day: 30
   - id: no-std
     type: webpage
-    title: libcore
+    title: " libcore"
     URL: http://doc.rust-lang.org/book/no-stdlib.html
     accessed:
       year: 2015
       month: 06
       day: 30
   - id: uls
-    title: "Ultra-Large-Scale Systems: The Software Challenge of the Future"
+    title: " Ultra-Large-Scale Systems: The Software Challenge of the Future"
     author:
       - given: Peter
         family: Feiler
@@ -64,7 +64,7 @@ references:
     type: book
     URL: https://www.sei.cmu.edu/uls/
   - id: redis
-    title: Redis
+    title: " Redis"
     type: webpage
     URL: http://redis.io/
     accessed:
@@ -72,7 +72,7 @@ references:
       month: 06
       day: 30
   - id: redis-api
-    title: A Fresh Look at Rust
+    title: " A Fresh Look at Rust"
     type: webpage
     author:
       - given: Armin
@@ -83,7 +83,7 @@ references:
       month: 06
       day: 30
   - id: go-fn
-    title: "Go Blog: Function Declaration"
+    title: " Go Blog: Function Declaration"
     author:
       - given: Rob
         family: Pike
@@ -94,7 +94,7 @@ references:
       month: 06
       day: 30
   - id: billion-dollar
-    title: "Null References: The Billion Dollar Mistake"
+    title: " Null References: The Billion Dollar Mistake"
     author:
       - given: Tony
         family: Hoare
@@ -105,7 +105,7 @@ references:
       month: 06
       day: 30
   - id: abstraction
-    title: "Abstraction without overhead: traits in Rust"
+    title: " Abstraction without overhead: traits in Rust"
     author:
       - given: Aaron
         family: Turon
@@ -116,7 +116,7 @@ references:
       month: 06
       day: 30
   - id: travis-docs
-    title: "Rust, Travis, and Github Pages"
+    title: " Rust, Travis, and Github Pages"
     author:
       - given: Andrew
         family: Hobden
@@ -127,7 +127,7 @@ references:
       month: 06
       day: 30
   - id: rust-research
-    title: "Rust: Academic Research"
+    title: " Rust: Academic Research"
     type: webpage
     URL: https://doc.rust-lang.org/nightly/book/academic-research.html
     accessed:
@@ -135,7 +135,7 @@ references:
       month: 06
       day: 30
   - id: compatability
-    title: Stability as a Deliverable
+    title: " Stability as a Deliverable"
     type: webpage
     URL: https://doc.rust-lang.org/nightly/book/academic-research.html
     authors:
@@ -148,7 +148,7 @@ references:
       month: 06
       day: 30
   - id: release-schedule
-    title: Scheduling the Trains
+    title: " Scheduling the Trains"
     type: webpage
     URL: http://blog.rust-lang.org/2014/12/12/1.0-Timeline.html
     author:
@@ -159,7 +159,7 @@ references:
       month: 06
       day: 30
   - id: semantic-versioning
-    title: Semantic Versioning
+    title: " Semantic Versioning"
     type: webpage
     URL: http://semver.org/
     accessed:
@@ -167,7 +167,7 @@ references:
       month: 06
       day: 30
   - id: rust-stackoverflow
-    title: Rust Stack Overflow
+    title: " Rust Stack Overflow"
     type: webpage
     URL: https://stackoverflow.com/questions/tagged/rust
     accessed:
@@ -175,7 +175,7 @@ references:
       month: 06
       day: 30
   - id: coreutils
-    title: uutils/coreutils
+    title: " uutils/coreutils"
     type: webpage
     URL: https://github.com/uutils/coreutils
     accessed:
@@ -183,7 +183,7 @@ references:
       month: 06
       day: 30
   - id: rust-boot
-    title: Writing an OS in Rust in Tiny Steps
+    title: " Writing an OS in Rust in Tiny Steps"
     type: webpage
     author:
       - given: Julia
@@ -194,7 +194,7 @@ references:
       month: 06
       day: 30
   - id: zinc
-    title: zinc.rs
+    title: " zinc.rs"
     type: webpage
     URL: http://zinc.rs/
     accessed:
@@ -202,7 +202,7 @@ references:
       month: 06
       day: 30
   - id: splint
-    title: Splint
+    title: " Splint"
     type: webpage
     URL: http://splint.org/
     accessed:
@@ -210,7 +210,7 @@ references:
       month: 06
       day: 30
   - id: region-cyclone
-    title: "Region-Based Memory Management in Cyclone"
+    title: " Region-Based Memory Management in Cyclone"
     type: webpage
     authors:
       - family: Grossman
@@ -225,7 +225,7 @@ references:
       month: 06
       day: 30
   - id: rust-release
-    title: Announcing Rust 1.0
+    title: " Announcing Rust 1.0"
     type: webpage
     author: The Rust Core Team
     URL: http://blog.rust-lang.org/2015/05/15/Rust-1.0.html
@@ -234,7 +234,7 @@ references:
       month: 06
       day: 30
   - id: dining-phil
-    title: Dining Philosophers in Rust
+    title: " Dining Philosophers in Rust"
     type: webpage
     URL: https://doc.rust-lang.org/book/dining-philosophers.html
     accessed:
@@ -242,7 +242,7 @@ references:
       month: 06
       day: 30
   - id: dining-rust
-    title: Dining Philosophers in Rust
+    title: " Dining Philosophers in Rust"
     type: webpage
     author:
       - family: Klabnik
@@ -253,7 +253,7 @@ references:
       month: 06
       day: 30
   - id: dining-c
-    title: Dining Philosophers in C
+    title: " Dining Philosophers in C"
     type: webpage
     URL: http://rosettacode.org/wiki/Dining_philosophers#C
     accessed:
@@ -272,7 +272,7 @@ references:
       month: 06
       day: 30
   - id: reenix
-    title: "Reenix: Implementing a Unix-Like Operating System in Rust"
+    title: " Reenix: Implementing a Unix-Like Operating System in Rust"
     type: webpage
     author:
       - given: Alex
@@ -283,7 +283,7 @@ references:
       month: 06
       day: 30
   - id: patina
-    title: "Patina: A Formalization of the Rust Programming Language"
+    title: " Patina: A Formalization of the Rust Programming Language"
     type: webpage
     author:
       - given: Eric
@@ -294,7 +294,7 @@ references:
       month: 06
       day: 30
   - id: deviant
-    title: "Bugs as Deviant Behavior: A General Approach to Inferring Errors in Systems Code"
+    title: " Bugs as Deviant Behavior: A General Approach to Inferring Errors in Systems Code"
     type: paper-conference
     container-title: Eighteenth ACM symposium on Operating systems principles (SOSP '01)
     publisher-place: ACM, New York, NY, USA
@@ -316,7 +316,7 @@ references:
       month: 06
       day: 30
   - id: coverity
-    title: Coverity
+    title: " Coverity"
     type: webpage
     URL: https://www.coverity.com/
     accessed:
